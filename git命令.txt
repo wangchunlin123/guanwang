@@ -1,0 +1,28 @@
+1.新建
+git init
+git add .
+git commit -m "修改"
+git remote add origin 地址
+git pull
+git push -u origin master
+
+2.修改
+git pull
+git add . 
+git commit -m "修改"
+git push
+
+3.分支 
+git branch 分支名
+
+git checkout 分支名
+
+git push --set-upstream origin 分支名
+
+4合并到主分支
+ 
+git checkout 主分支
+git merge 分支名
+git push 
+
+
